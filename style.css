@@ -264,3 +264,5 @@ html[dir=ltr] .stat:last-child{border:none}
 
 .patr{display:flex;flex-wrap:wrap;gap:28px;align-items:center;justify-content:center;margin-top:26px;background:#fff;border-radius:22px;padding:28px;box-shadow:0 10px 30px rgba(10,31,43,.08)}
 .patr figure{margin:0;text-align:center;flex:1 1 200px}.patr img{max-height:84px;width:auto;max-width:100%;object-fit:contain}.patr figcaption{margin-top:10px;font-weight:700;font-size:14px}
+
+.stcap{text-align:center;color:var(--mut);font-size:14px;margin:14px auto 0;padding:0 16px;max-width:720px}
