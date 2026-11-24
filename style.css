@@ -281,3 +281,4 @@ html[dir=ltr] .stat:last-child{border:none}
 .ttl h1{margin:0}
 .ttl .jlogo{width:74px;margin:0;padding:6px;border-radius:16px;flex:none;box-shadow:0 8px 22px rgba(0,0,0,.3)}
 @media(max-width:700px){.ttl .jlogo{width:62px}}
+@media(min-width:701px){.stats.s6 .grid{grid-template-columns:repeat(6,1fr)}}
