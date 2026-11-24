@@ -205,3 +205,5 @@ html[dir=ltr] .stat:last-child{border:none}
 
 .triad{margin-top:14px}.triad-chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.triad-chips span{padding:6px 18px;border-radius:99px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);font-weight:700}
 @media(max-width:700px){.pagehead::after{display:none}}
+
+.pagehead p{text-align:start!important;text-justify:auto;hyphens:none;word-spacing:normal;max-width:760px}
