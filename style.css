@@ -211,3 +211,9 @@ html[dir=ltr] .stat:last-child{border:none}
 .soc{display:flex;gap:10px;margin-top:18px}.soc a{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.3);transition:transform .2s,background .2s}.soc a:hover{background:var(--sun,#f58220);transform:translateY(-2px)}footer .soc{margin-top:0}
 
 @media(min-width:701px){.cards.c4{grid-template-columns:repeat(2,1fr)}.stats.s4 .grid{grid-template-columns:repeat(4,1fr)}}
+
+.govh{font-weight:800;color:var(--ink,#123);font-size:20px;margin:34px 0 14px;text-align:center}
+.gov{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
+.govc{flex:1 1 240px;max-width:340px;background:#fff;border:1px solid #e1eaed;border-radius:20px;padding:22px 18px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;box-shadow:0 6px 18px rgba(20,60,70,.06)}
+.govc img{height:84px;width:auto;max-width:100%;object-fit:contain}
+.govc span{font-weight:700;text-align:center}
