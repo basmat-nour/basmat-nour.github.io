@@ -221,10 +221,10 @@ html[dir=ltr] .stat:last-child{border:none}
 .ticker{display:flex;align-items:stretch;background:#0a1f2b;color:#fff;border-bottom:3px solid var(--sun,#ff7a02);overflow:hidden;font-weight:600}
 .tklab{background:var(--sun,#ff7a02);color:#fff;padding:12px 20px;font-weight:800;white-space:nowrap;position:relative;z-index:2}
 .tkv{overflow:hidden;flex:1;direction:ltr}
-.tkt{display:inline-flex;white-space:nowrap;animation:tk 26s linear infinite;will-change:transform}
+.tkt{display:flex;width:max-content;white-space:nowrap;animation:tk 26s linear infinite;will-change:transform}
 .tkt{direction:ltr}
 .ticker:hover .tkt{animation-play-state:paused}
-.tkt a{color:#fff;padding:12px 34px;position:relative;text-decoration:none}
+.tkt a{flex:none;color:#fff;padding:12px 34px;position:relative;text-decoration:none}
 .tkt a::after{content:"";position:absolute;inset-inline-end:0;top:50%;width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--sun,#ff7a02)}
 @keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes tkr{from{transform:translateX(0)}to{transform:translateX(50%)}}
