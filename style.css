@@ -272,3 +272,8 @@ html[dir=ltr] .stat:last-child{border:none}
 @media(max-width:700px){.gal{grid-template-columns:repeat(2,1fr);gap:8px}.gal img{border-radius:12px}.jlogo{width:104px}}
 @keyframes tka{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 .ticker[dir=rtl] .tkt{animation-name:tka;flex-direction:row-reverse}
+.gal figure{margin:0}
+.gal figcaption{font-size:14px;line-height:1.7;color:#51606a;margin-top:8px}
+.dark .gal figcaption{color:#c8dce1}
+.sec-items{margin-top:22px}
+@media(max-width:700px){.gal figcaption{font-size:13px}}
