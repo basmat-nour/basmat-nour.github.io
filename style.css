@@ -207,3 +207,5 @@ html[dir=ltr] .stat:last-child{border:none}
 @media(max-width:700px){.pagehead::after{display:none}}
 
 .pagehead p{text-align:start!important;text-justify:auto;hyphens:none;word-spacing:normal;max-width:760px}
+
+.soc{display:flex;gap:10px;margin-top:18px}.soc a{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.3);transition:transform .2s,background .2s}.soc a:hover{background:var(--sun,#f58220);transform:translateY(-2px)}footer .soc{margin-top:0}
