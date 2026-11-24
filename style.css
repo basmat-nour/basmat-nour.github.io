@@ -113,3 +113,21 @@ html,body{overflow-x:hidden;max-width:100%}
 .hero .wrap>*,.split>*,.grid>*,.cards>*,.board>*,.contact>*,.band>*,.award>*{min-width:0}
 img{max-width:100%}
 @media(max-width:480px){.wrap{padding-inline:18px}.stat{padding:20px 8px}.stat span{font-size:12.5px}.board{grid-template-columns:1fr}.member.lead{grid-column:auto}.contact{grid-template-columns:1fr}.hero h1{font-size:34px}}
+.lh{margin:44px 0 16px;font-size:22px;color:var(--ink);display:flex;align-items:center;gap:10px}
+.lh:before{content:"";width:8px;height:26px;border-radius:4px;background:linear-gradient(var(--sun),var(--gold))}
+.lks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.lk{position:relative;display:flex;flex-direction:column;gap:10px;background:#fff;border-radius:18px;padding:18px 20px 16px;text-decoration:none;color:var(--ink);box-shadow:0 6px 20px rgba(10,31,43,.07);border-top:4px solid var(--teal);transition:transform .15s,box-shadow .15s;min-width:0}
+.lk:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(10,31,43,.15)}
+.lk b{font-size:16.5px;line-height:1.6;font-weight:700;flex:1;overflow-wrap:anywhere}
+.lk i{font-style:normal;font-size:14px;color:var(--teal);font-weight:700}
+.bdg{align-self:flex-start;font-size:12.5px;font-weight:700;padding:3px 12px;border-radius:99px;background:#e6f7f5;color:#00796f}
+.lk.yt{border-top-color:#e62117}.lk.yt .bdg{background:#fde8e6;color:#b3140c}
+.lk.fb{border-top-color:#1877f2}.lk.fb .bdg{background:#e7f0fe;color:#1259b8}
+.lk.ig{border-top-color:#d6249f}.lk.ig .bdg{background:#fbe6f4;color:#a3167a}
+.lk.li{border-top-color:#0a66c2}.lk.li .bdg{background:#e5f0fa;color:#0a4f98}
+.lk.dr{border-top-color:var(--sun)}.lk.dr .bdg{background:#fff0e2;color:#b85200}
+.lk.al{border-top-color:var(--gold)}.lk.al .bdg{background:#fff6dc;color:#8a6200}
+.lk.web{border-top-color:var(--teal)}
+@media(max-width:900px){.lks{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.lks{grid-template-columns:1fr}.lh{font-size:19px}}
+@media(max-width:560px){.lk{padding:14px 16px 12px;gap:6px}.lk b{font-size:15.5px}}
