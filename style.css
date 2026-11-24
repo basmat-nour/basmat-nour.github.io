@@ -250,3 +250,5 @@ html[dir=ltr] .stat:last-child{border:none}
 .pc .ph{position:relative;aspect-ratio:1/1;overflow:hidden}
 .pyr-2 .pc .ph{aspect-ratio:1/1;max-height:340px}
 .pc .ph img{position:absolute;inset:0;width:100%!important;height:100%!important;object-fit:cover;object-position:50% 20%}
+
+.pull{margin:26px 0;padding:18px 24px;border-inline-start:6px solid var(--sun,#ff7a02);background:#fff;border-radius:0 16px 16px 0;font-weight:800;font-size:22px;color:#0a1f2b;box-shadow:0 8px 24px rgba(10,31,43,.06)}
