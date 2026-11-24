@@ -266,3 +266,7 @@ html[dir=ltr] .stat:last-child{border:none}
 .patr figure{margin:0;text-align:center;flex:1 1 200px}.patr img{max-height:84px;width:auto;max-width:100%;object-fit:contain}.patr figcaption{margin-top:10px;font-weight:700;font-size:14px}
 
 .stcap{text-align:center;color:var(--mut);font-size:14px;margin:14px auto 0;padding:0 16px;max-width:720px}
+.jlogo{display:block;width:130px;height:auto;background:#fff;border-radius:22px;padding:10px;margin-bottom:20px;box-shadow:0 14px 34px rgba(0,0,0,.3)}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;display:block;background:#dfe8ea}
+@media(max-width:700px){.gal{grid-template-columns:repeat(2,1fr);gap:8px}.gal img{border-radius:12px}.jlogo{width:104px}}
