@@ -109,3 +109,7 @@ section{padding:60px 0}
 .brand span{font-size:15px}
 }
 @media(max-width:480px){.stat b{font-size:34px}.btn{width:100%;text-align:center}}
+html,body{overflow-x:hidden;max-width:100%}
+.hero .wrap>*,.split>*,.grid>*,.cards>*,.board>*,.contact>*,.band>*,.award>*{min-width:0}
+img{max-width:100%}
+@media(max-width:480px){.wrap{padding-inline:18px}.stat{padding:20px 8px}.stat span{font-size:12.5px}.board{grid-template-columns:1fr}.member.lead{grid-column:auto}.contact{grid-template-columns:1fr}.hero h1{font-size:34px}}
