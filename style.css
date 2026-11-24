@@ -217,3 +217,16 @@ html[dir=ltr] .stat:last-child{border:none}
 .govc{flex:1 1 240px;max-width:340px;background:#fff;border:1px solid #e1eaed;border-radius:20px;padding:22px 18px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;box-shadow:0 6px 18px rgba(20,60,70,.06)}
 .govc img{height:84px;width:auto;max-width:100%;object-fit:contain}
 .govc span{font-weight:700;text-align:center}
+
+.ticker{display:flex;align-items:stretch;background:#0a1f2b;color:#fff;border-bottom:3px solid var(--sun,#ff7a02);overflow:hidden;font-weight:600}
+.tklab{background:var(--sun,#ff7a02);color:#fff;padding:12px 20px;font-weight:800;white-space:nowrap;position:relative;z-index:2}
+.tkv{overflow:hidden;flex:1;direction:ltr}
+.tkt{display:inline-flex;white-space:nowrap;animation:tk 70s linear infinite;will-change:transform}
+.ticker[dir=rtl] .tkt{direction:rtl;animation-name:tkr}
+.ticker:hover .tkt{animation-play-state:paused}
+.tkt a{color:#fff;padding:12px 34px;position:relative;text-decoration:none}
+.tkt a::after{content:"";position:absolute;inset-inline-end:0;top:50%;width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--sun,#ff7a02)}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes tkr{from{transform:translateX(0)}to{transform:translateX(50%)}}
+@media(prefers-reduced-motion:reduce){.tkt{animation:none;overflow-x:auto}}
+@media(max-width:600px){.tkt{animation-duration:55s}.tkt a{padding:10px 24px}.tklab{padding:10px 14px}}
