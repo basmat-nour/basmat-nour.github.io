@@ -307,3 +307,5 @@ html[dir=ltr] .stat:last-child{border:none}
 .mvid .vwrap{margin:0 auto 10px}
 .mvid .fbl{display:block;text-align:center;color:#7fe3da}
 @media(max-width:700px){.ncard{padding:22px 18px;border-radius:18px}.nbody p{font-size:17px;line-height:1.95}.ngal{grid-template-columns:1fr 1fr;gap:8px}}
+
+.apos{margin:18px 0 0;max-width:560px}.apos img{width:100%;height:auto!important;border-radius:14px;display:block}
